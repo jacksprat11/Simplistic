@@ -1,0 +1,240 @@
+{
+    "images":
+    {
+		"black":
+        {
+            "image" : "mainmenu:textures/bg_menu.png",
+            "posX" : 95,
+            "posY" : -80,
+            "width" : 200,
+            "height" : 1500,
+            "alignment" : "top_left"
+        },
+		"logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 160,
+            "height" : 40,
+            "alignment" : "top_left"
+        }
+	
+	},
+	
+	"text":
+	{
+        "changelog":
+        {
+		    "text" : "web:http://pastebin.com/raw.php?i=hX45Cj06",
+			"posX" : -100,
+			"posY" : 200,
+			"color" : -1,
+			"alignment" : "top_right"
+		}
+	},
+	
+    "buttons":
+    {     
+		"singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : -50,
+            "width" : 196,
+            "height" : 30,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : -20,
+            "width" : 196,
+            "height" : 30,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "menu.options",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 20,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		        
+		"language":
+        {
+            "text" : "options.language",
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 40,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 60,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+			"hoverText" : "No! Don't leave!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 97,
+            "posY" : 110,
+            "width" : 96,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+		
+		"UpdateNotes":
+		{
+		    "text" : "Update Notes",
+			"texture" : "mainmenu:textures/btn.png",
+			"posX" : 0,
+			"posY" : 0,
+			"width" : 153,
+			"height" : 20,
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+			"alignment" : "left_center",
+			"action" :
+            {
+                "type" : "openGui",
+                "gui" : "custom.Notes"
+            }
+		},
+			
+        "versionChecker":
+        {
+            "text" : "Version-Checker",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : 193,
+            "posY" : 100,
+            "width" : 100,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "left_center",
+            "wrappedButton" : 404
+        }
+	},
+	
+		"twitter":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/twitter.png",
+            "posX" : -110,
+            "posY" : -25,
+            "width" : 15,
+            "height" : 15,
+			"imageWidth" : 15,
+			"imageHeight" : 15,
+			"alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://twitter.com/Stupidpeopleinc"
+            }
+        },
+		
+		"skype":
+        {
+            "text" : "",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/skype.png",
+            "posX" : -110,
+            "posY" : -50,
+            "width" : 15,
+            "height" : 15,
+			"imageWidth" : 15,
+			"imageHeight" : 15,
+			"alignment" : "top_left",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://join.skype.com/xHjRYYG5xCBE"
+            }
+        },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.png",
+			"mode" : "stretch"
+		}
+    }
+}
